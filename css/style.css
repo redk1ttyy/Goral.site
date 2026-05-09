@@ -34,6 +34,14 @@ a:hover {
 a:active {
   color: #db3d97;
 }
+.title {
+  background: #ffffff;
+  color: #000000;
+  border: 3px solid gray;
+  padding: 8px;
+  border-radius: 15px;
+  font-family: 'Comic Sans MS', 'Cause', sans-serif;
+}
 #definition {
   text-align: left;
   max-width: 480px;
