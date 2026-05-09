@@ -57,11 +57,13 @@ a:active {
   background: #0bd9c4;
   outline: 4px solid #0bd9c455;
   border-radius: 20px;
-  transform: scale(1.02);
+  transform: scale(1.08);
 }
 .button:active {
   color: #0e0f24;
-  transform: scale(0.92);
+  background: #0bd9c455;
+  outline: 0px solid #0bd9c455;
+  transform: scale(0.95);
 }
 .button p {
   margin: 0;
