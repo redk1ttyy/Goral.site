@@ -26,6 +26,11 @@ a {
   font-weight: 600;
   text-decoration: underline 1.5px;
 }
+a:hover {
+  background-color: #0bd9c455;
+  outline: 2px solid #0bd9c455;
+  border-radius: 4px;
+}
 a:active {
   color: #db3d97;
 }
@@ -49,7 +54,10 @@ a:active {
   font-size: 100%;
 }
 .button:hover {
-  transform: scale(1.1);
+  background: #0bd9c4;
+  outline: 4px solid #0bd9c455;
+  border-radius: 20px;
+  transform: scale(1.02);
 }
 .button p {
   margin: 0;
