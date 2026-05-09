@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
+
 :root {
   background: #0e0f24 url("/assets/bg.png") fixed center repeat;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
-  font-family: 'Comic Neue', sans-serif;
+  font-family: 'Cause', sans-serif;
   text-align: center;
 }
 body {
@@ -18,14 +19,14 @@ main {
   padding: 15px 25px;
 }
 h1,b {
-  font-family: 'Comic Relief', sans-serif;
+  font-weight: 600;
 }
 b {
   font-size: 16px;
 }
 a {
   color: #0bd9c4;
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: underline 1.5px;
 }
 a:active {
@@ -47,17 +48,11 @@ a:active {
   margin: 20px auto;
   border-radius: 20px;
   transition: 0.2s;
-  transform: scale(0.8);
-}
-.button:nth-child(odd) {
   transform: scale(1.0);
   font-size: 100%;
 }
-.button:hover:nth-child(odd) {
-  transform: scale(1.05);
-}
-.button:hover:nth-child(even) {
-  transform: scale(0.82);
+.button:hover {
+  transform: scale(1.1);
 }
 .button p {
   margin: 0;
