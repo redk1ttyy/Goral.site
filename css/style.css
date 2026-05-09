@@ -25,13 +25,13 @@ a {
   color: #0bd9c4;
   font-weight: 600;
   text-decoration: underline 1.5px;
-  outline: 0px solid #0bd9c455;
+  outline: 1px solid transparent;
+  border-radius: 4px;
   transition: 0.2s;
 }
 a:hover, a:focus {
   background-color: #0bd9c455;
   outline: 2px solid #0bd9c455;
-  border-radius: 4px;
 }
 a:active {
   background-color: #db3d9755;
