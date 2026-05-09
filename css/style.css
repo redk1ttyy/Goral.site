@@ -78,6 +78,7 @@ h1 {
 }
 .button p {
   margin: 0;
+  font-weight: 700;
 }
 p.available {
   font-size: 75%;
@@ -86,6 +87,7 @@ p.available {
   margin: 0;
     margin-bottom: 3px;
   margin-top: 2px;
+  font-weight: 600;
 }
 footer {
   background: transparent;
