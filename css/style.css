@@ -59,6 +59,10 @@ a:active {
   border-radius: 20px;
   transform: scale(1.02);
 }
+.button:active {
+  color: #0e0f24;
+  transform: scale(0.92);
+}
 .button p {
   margin: 0;
 }
