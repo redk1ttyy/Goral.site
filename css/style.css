@@ -38,9 +38,12 @@ a:active {
   background: #ffffff;
   color: #000000;
   border: 3px solid gray;
-  padding: 8px;
+  padding: 9px 18px;
   border-radius: 15px;
   font-family: 'Comic Sans MS', 'Cause', sans-serif;
+}
+h1 {
+  margin-bottom: 35px;
 }
 #definition {
   text-align: left;
