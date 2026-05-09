@@ -19,14 +19,11 @@ main {
   padding: 15px 25px;
 }
 h1,b {
-  font-weight: 600;
-}
-b {
-  font-size: 16px;
+  font-weight: 800;
 }
 a {
   color: #0bd9c4;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: underline 1.5px;
 }
 a:active {
