@@ -25,6 +25,7 @@ a {
   color: #0bd9c4;
   font-weight: 600;
   text-decoration: underline 1.5px;
+  transition: 0.2s;
 }
 a:hover, a:focus {
   background-color: #0bd9c455;
